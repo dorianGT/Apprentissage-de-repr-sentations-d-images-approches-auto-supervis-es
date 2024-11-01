@@ -1,1 +1,3 @@
 # Apprentissage-de-repr-sentations-d-images-approches-auto-supervis-es
+
+Ce projet explore l'apprentissage auto-supervisé d'images en comparant plusieurs modèles comme SimCLR, Rotation et Context Encoder sur les jeux de données CIFAR10 et STL10. Nous avons implémenté et testé une tâche prétexte de positionnement relatif de patchs d’image, puis utilisé le modèle ainsi pré-entraîné pour de la classification. Les résultats montrent des performances prometteuses sur STL10, mais une généralisation limitée sur CIFAR10, soulignant les défis du transfert de représentations sur des ensembles de données différents. Des pistes d’amélioration comme le fine-tuning sont également discutées pour renforcer la robustesse des modèles.
